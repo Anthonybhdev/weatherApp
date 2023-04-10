@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <style>
+           * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #116396;
+}
+h1{
+    font-family: 'Antonio', sans-serif;
+    color: #fff;
+    margin-bottom: 10px
+}
+.container-fluid
+{
+    width: 400px;
+    margin: 60px auto;
+    padding: 10px;
+}
+.inputs 
+{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    box-shadow: 21px 7px 5px 0px rgba(0,0,0,0.75);
+}
+label {
+    font-weight:bold;
+}
+.inputs input[type="text"] 
+{
+    height: 4rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right:4px ;
+}
+ button 
+{
+    height: 3rem;
+    width: 6rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+}
+button:hover{
+    color: black;
+    background-color: #116396;
+}
+.display 
+{
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.wrapper 
+{
+    margin: 0 9rem;
+    background-color: white;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+img {
+    width: 50%;
+}
+
+        </style>
+    </head>
+    
+</html>
+<body>
+    
+    <div class="container-fluid">
+        <h1>Check the weather for your city</h1>
+      <section class="main">
+        <section class="inputs">
+            <form method="post" action="/">
+                <label for="cityInput">City Name:</label>
+                <input id="cityInput" type="text" name="cityName">
+                <button type="submit">Go</button>
+        </form>
+        </section>
+  
+        
+  
+    </div>
+  </body>
